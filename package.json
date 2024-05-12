@@ -1,0 +1,28 @@
+{
+  "name": "file_sharing_web_application",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^5.0.6",
+    "axios": "^1.6.8",
+    "firebase": "^10.11.1",
+    "lucide-react": "^0.376.0",
+    "next": "14.2.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hot-toast": "^2.4.1",
+    "resend": "^3.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.12.7",
+    "@types/react": "18.3.1",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}
